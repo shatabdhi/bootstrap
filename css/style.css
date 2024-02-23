@@ -1,0 +1,157 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+   }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-align: none;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,p,span{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--font-family);
+}
+#custom_menu li a{
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 15px;
+line-height: 200%;
+color: #353535;
+text-transform: uppercase;
+padding: 18px 22px 5px;
+position: relative;
+}
+#custom_menu li a::before {
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: #353535;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+transition: 0.3s;
+}
+#custom_menu li :hover a::before{
+    width: 100%;
+}
+
+footer{
+    background-image: url(../images/Group\ 215.png);
+}
+
+.middle-content h1{
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+line-height: 200%;
+color: #fff;
+
+}
+.middle-content p{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 180%;
+text-align: justify;
+color: #bbb9b9;
+}
+footer .last-content a{
+ padding:16px 0px 15px 32px;
+ background-color: #FFCC00;
+ border-radius: 16px;
+}
+footer .last-content a i{
+    padding: 5px 33px 5px 12px ;
+
+}
+ .first-row{
+    padding-top: 70px;
+ }
+footer .icon a{
+    width: 48px;
+    height: 48px;
+    background-color: #484848;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    line-height: 48px;
+    transition: 0.3s;
+ }
+ footer .icon a:hover{
+    background-color: #FFCC00;
+ }
+
+ .second-row{
+    padding-top: 94px;
+    padding-bottom: 74px;
+ }
+ #banner .contact a{
+    padding:16px 0px 15px 32px;
+    background-color: #FFCC00;
+    border-radius: 16px;
+text-decoration: none;
+color: #fff;
+ }
+ #banner .contact a i{
+    padding: 6px 45px 6px 11px ;
+    padding-top: 77px;
+ }
+ #banner .contact .Download{
+    padding:16px 0px 15px 32px;
+    background-color:white;
+    border: 1px solid;
+    text-decoration: none;
+color: black;
+ }
+ #banner .contact .Download:hover{
+    background-color: #FFCC00;
+    border:none;
+    transition: 0.5s;
+ }
+ #banner .contact .talk:hover{
+    background-color:white;
+    border:none;
+    transition: 0.5s;
+    color: #353535;
+ }
+ #Banner .follow{
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+#Banner .follow span{
+    padding-right: 32px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    color: #353535;
+}
+#Banner  .follow a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: #F4F3F3;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #000000;
+    margin-left: 16px;
+}
+#Banner  .follow a i{
+    width: 20px;
+    height: 20px;
+}
+#Banner .follow a:hover{
+    background-color: #fc0;
+    color: #ffff;
+}
